@@ -4,8 +4,10 @@
     <title>Library</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            font-family: 'EB Garamond';
+            background-color: #f2f2f2f1;
+            display: flex;
+            justify-content: center;
             margin: 0;
             padding: 0;
         }
@@ -13,9 +15,9 @@
         .center-screen {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            min-height: 100vh;
+            min-height: 85vh;
         }
 
         h1 {
@@ -30,19 +32,26 @@
             display: flex;
             justify-content: space-between;
             margin-top: 20px;
+            
         }
 
         form {
+            
             background-color: #fff;
             border-radius: 5px;
             width: 48%;
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            margin: 10px;
+            box-shadow: 0 0px 8px rgba(0, 0, 0, 0.55);
+            
         }
 
         table {
+            
             width: 100%;
-            border-collapse: collapse;
+            padding: 10px;
+            display: flex;
+            border-spacing: 10px;
             margin-bottom: 20px;
             margin-right: 45px;
         }
@@ -67,7 +76,7 @@
         }
 
         input[type="submit"] {
-            background-color: #4caf50;
+            background-color: #2a7085;
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -81,6 +90,13 @@
 
         input[type="submit"]:hover {
             background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 17px;
+            margin-top: 5px;
+            text-align: center;
         }
     </style>
 </head>
