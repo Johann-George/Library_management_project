@@ -3,6 +3,7 @@
 <head>
     <title>Library</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="center-screen">
@@ -106,44 +107,45 @@
     </div>
     <script>
         const searchForm = document.forms['lms'];
-        const updateForm = document.forms['updateForm'];
-        const reportForm = document.forms[2];
+const updateForm = document.forms['updateForm'];
+const reportForm = document.forms[2];
 
-        searchForm.addEventListener('submit', function(event) {
-            event.preventDefault();
-            const bookName = document.getElementById('book_name').value.trim();
-            const publicationDate = document.getElementById('publication_date').value.trim();
+searchForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const bookName = document.getElementById('book_name').value.trim();
+  const publicationDate = document.getElementById('publication_date').value.trim();
 
-            if (bookName === '' && publicationDate === '') {
-                document.getElementById('search-Error').textContent = 'Please enter either a book name or publication date.';
-            } else {
-                searchForm.submit();
-            }
-        });
+  if (bookName === '' && publicationDate === '') {
+      document.getElementById('search-Error').textContent = 'Please enter either a book name or publication date.';
+  } else {
+    searchForm.submit();
+  }
+  });
 
-        updateForm.addEventListener('submit', function(event) {
-            event.preventDefault();
-            const updateId = document.getElementById('update_id').value.trim();
-            const newName = document.getElementById('new_name').value.trim();
+  updateForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const updateId = document.getElementById('update_id').value.trim();
+    const newName = document.getElementById('new_name').value.trim();
 
-            if (updateId === '' || newName === '') {
-                document.getElementById('update-Error').textContent = 'Please fill in all the fields.';
-            } else {
-                updateForm.submit();
-            }
-        });
+    if (updateId === '' || newName === '') {
+            document.getElementById('update-Error').textContent = 'Please fill in all the fields.';
+        } else {
+            updateForm.submit();
+        }
+    });
 
-        reportForm.addEventListener('submit', function(event) {
-            event.preventDefault();
-            const startDate = document.getElementById('start_date').value.trim();
-            const endDate = document.getElementById('end_date').value.trim();
+    reportForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const startDate = document.getElementById('start_date').value.trim();
+        const endDate = document.getElementById('end_date').value.trim();
 
-            if (startDate === '' || endDate === '') {
-                document.getElementById('report-Error').textContent = 'Please select a valid date range.';
-            } else {
-                reportForm.submit();
-            }
-        });
+        if (startDate === '' || endDate === '') {
+            document.getElementById('report-Error').textContent = 'Please select a valid date range.';
+        } else {
+            reportForm.submit();
+        }
+    });
+
     </script>
 </body>
 </html>
