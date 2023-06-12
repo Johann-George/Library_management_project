@@ -1,0 +1,63 @@
+[
+    {
+      "journalId": "1",
+      "Name": "Journal of Science",
+      "publicationDate": "2022-01-01",
+      "authors": "Various"
+    },
+    {
+      "journalId": "2",
+      "Name": "International Journal of Medicine",
+      "publicationDate": "2021-09-15",
+      "authors": "John Smith"
+    },
+    {
+      "journalId": "3",
+      "Name": "Journal of Psychology",
+      "publicationDate": "2022-05-10",
+      "authors": "Emily Wilson"
+    },
+    {
+      "journalId": "4",
+      "Name": "Journal of Economics",
+      "publicationDate": "2022-03-20",
+      "authors": "Michael Brown"
+    },
+    {
+      "journalId": "5",
+      "Name": "Journal of Sociology",
+      "publicationDate": "2021-11-30",
+      "authors": "Sophia Anderson"
+    },
+    {
+      "journalId": "6",
+      "Name": "Journal of Environmental Science",
+      "publicationDate": "2022-07-05",
+      "authors": "David Thompson"
+    },
+    {
+      "journalId": "7",
+      "Name": "Journal of Business Administration",
+      "publicationDate": "2021-12-15",
+      "authors": "Olivia Martinez"
+    },
+    {
+      "journalId": "8",
+      "Name": "Journal of Political Science",
+      "publicationDate": "2022-02-10",
+      "authors": "Robert Davis"
+    },
+    {
+      "journalId": "9",
+      "Name": "Journal of Education",
+      "publicationDate": "2021-10-20",
+      "authors": "Jane Doe"
+    },
+    {
+      "journalId": "10",
+      "Name": "Journal of Computer Science",
+      "publicationDate": "2022-04-05",
+      "authors": "William Johnson"
+    }
+  ]
+  

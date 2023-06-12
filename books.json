@@ -1,0 +1,63 @@
+[
+    {
+      "bookId": "1",
+      "Name": "Introduction to Programming",
+      "publicationDate": "2020-05-15",
+      "authors": "John Smith"
+    },
+    {
+      "bookId": "2",
+      "Name": "Data Structures and Algorithms",
+      "publicationDate": "2018-09-20",
+      "authors": "Jane Doe"
+    },
+    {
+      "bookId": "3",
+      "Name": "Web Development Basics",
+      "publicationDate": "2019-11-10",
+      "authors": "Samuel Johnson"
+    },
+    {
+      "bookId": "4",
+      "Name": "Database Management Systems",
+      "publicationDate": "2021-03-08",
+      "authors": "Emily Wilson"
+    },
+    {
+      "bookId": "5",
+      "Name": "Artificial Intelligence: A Modern Approach",
+      "publicationDate": "2017-06-25",
+      "authors": "Michael Brown"
+    },
+    {
+      "bookId": "6",
+      "Name": "Operating Systems Concepts",
+      "publicationDate": "2022-01-05",
+      "authors": "David Thompson"
+    },
+    {
+      "bookId": "7",
+      "Name": "Software Engineering Principles",
+      "publicationDate": "2016-08-14",
+      "authors": "Sophia Anderson"
+    },
+    {
+      "bookId": "8",
+      "Name": "Computer Networks: A Top-Down Approach",
+      "publicationDate": "2020-12-01",
+      "authors": "Robert Davis"
+    },
+    {
+      "bookId": "9",
+      "Name": "Introduction to Machine Learning",
+      "publicationDate": "2019-04-17",
+      "authors": "Olivia Martinez"
+    },
+    {
+      "bookId": "10",
+      "Name": "Data Science for Beginners",
+      "publicationDate": "2021-09-30",
+      "authors": "William Johnson"
+    }
+  ]
+  
