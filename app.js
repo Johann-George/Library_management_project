@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const { MongoClient} = require('mongodb');
+app.use(express.static(__dirname));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const url = 'mongodb://127.0.0.1:27017';
