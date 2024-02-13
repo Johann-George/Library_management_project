@@ -1,14 +1,16 @@
 body {
-    font-family: 'EB Garamond';    
-    background-color: #f2f2f2f1;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    background-image: url("Library_management.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  font-family: 'EB Garamond';    
+  background-color: #f2f2f2f1;
+  background-image: url("Library_management.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body covers the entire viewport */
 }
 
 .center-screen {
@@ -16,6 +18,9 @@ body {
     justify-content: space-between;
     /* align-items: flex-start; */
     min-height: 85vh;
+    height: 100vh; /* Add this line */
+    margin: 0px; /* Add this line */
+    padding: 0px; /* Add this line */
 }
 
 
@@ -29,15 +34,13 @@ h1 {
     color: #ccc;
     padding: 10px;
     border-radius: 8px;
+    margin: 50px;
 }
 .form-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
-  margin-bottom: 50px;
-    
+  gap: 20px;
 }
 .form {
   display: flex;
