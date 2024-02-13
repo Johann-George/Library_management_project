@@ -15,7 +15,7 @@ The Library Management System is a web-based application that allows users to ma
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js
-- **Database**: JSON files (books.json, journals.json) for storing book and journal data
+- **Database**: Mongodb (books.json, journals.json) for storing book and journal data
 - **Dependencies**: This project utilizes various npm packages such as Express.js, body-parser, and nodemon.
 
 ## Folder Organization
