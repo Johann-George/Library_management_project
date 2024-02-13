@@ -34,5 +34,6 @@ The Library Management System is a web-based application that allows users to ma
 ## Link:
 - https://johann-george.github.io/Library_management_project/
 ## Screenshot
-![Front_End](![image](https://github.com/Johann-George/Library_management_project/assets/103820529/6f1cb6ab-b999-40b1-bc13-29eb88f91db5)
-)
+![Front_End](https://github.com/Johann-George/Library_management_project/assets/103820529/9a9dee0d-12cc-4bae-b8c1-ca312a70845f)
+
+
