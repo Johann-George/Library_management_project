@@ -6,17 +6,20 @@
 
 </head>
 <body>
+    
     <div class="center-screen">
         <h1>Library Management System</h1>
         <div class="form-container">
-            <form name="lms" action="/search" method="GET">
+            <div class="card">
+                <div class="card2">
+            <form name="lms" action="/search" method="GET" class="form">
                 <table>
                     <tr>
-                        <th><label for="search_type">Search for:</label></th>
+                        <th><label for="search_type" id="heading">Search for:</label></th>
                     </tr>
                     <tr>
                         <td>
-                            <select id="search_type" name="search_type">
+                            <select id="search_type" name="search_type" class="input-field">
                                 <option value="book">Book</option>
                                 <option value="journal">Journal</option>
                             </select>
@@ -24,31 +27,35 @@
                     </tr>
                     <tr>
                         <td>
-                          <label for="book_name">Name:</label>
-                          <input type="text" id="book_name" name="book_name">
+                          <label for="book_name" id="heading">Name:</label>
+                          <input type="text" id="book_name" name="book_name" placeholder="Enter name" class="input-field">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="publication_date">Publication date:</label>
-                            <input type="date" id="publication_date" name="publication_date">
+                            <label for="publication_date" id="heading">Publication date:</label>
+                            <input type="date" id="publication_date" name="publication_date" class="input-field">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" value="Search">
+                            <input type="submit" value="Search" id="button" class="button1">
                         </td>
                     </tr>
                 </table>
             </form>
-            <form name="updateForm" action="/update" method="post">
+            </div>
+            </div>
+            <div class="card">
+            <div class="card2">
+            <form name="updateForm" action="/update" method="post" class="form" >
                 <table>
                     <tr>
-                        <th><label for="update_type">Update:</label></th>
+                        <th><label for="update_type" id="heading">Update:</label></th>
                     </tr>
                     <tr>
                         <td>
-                            <select id="update_type" name="update_type">
+                            <select id="update_type" name="update_type" class="input-field">
                                 <option value="book">Book</option>
                                 <option value="journal">Journal</option>
                             </select>
@@ -56,31 +63,35 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for="update_id">ID:</label>
-                            <input type="text" id="update_id" name="update_id">
+                            <label for="update_id" id="heading">ID:</label>
+                            <input type="text" id="update_id" name="update_id" class="input-field">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="new_name">New name:</label>
-                            <input type="text" id="new_name" name="new_name">
+                            <label for="new_name" id="heading">New name:</label>
+                            <input type="text" id="new_name" name="new_name" class="input-field">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" value="Update">
+                            <input type="submit" value="Update" id="button" class="button1">
                         </td>
                     </tr>
                 </table>
             </form>
-            <form action="report" method="get">
+            </div>
+            </div>
+            <div class="card">
+            <div class="card2">
+            <form action="report" method="get" class="form">
                 <table>
                     <tr>
-                        <th><label for="report">Report:</label></th>
+                        <th><label for="report" id="heading">Report:</label></th>
                     </tr>
                     <tr>
                         <td>
-                            <select id="report_type" name="report_type">
+                            <select id="report_type" name="report_type" class="input-field">
                                 <option value="book">Book</option>
                                 <option value="journal">Journal</option>
                             </select>
@@ -88,23 +99,27 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for="report_id">Select a date range:</label><br><br>
-                            <label>from:</label>  
-                            <input type="date" id="start_date" name="start_date">
+                            <label for="report_id" id="heading">Select a date range:</label><br><br>
+                            <label id="heading">from:</label>  
+                            <input type="date" id="start_date" name="start_date" class="input-field">
                             <br><br>
-                            <label>to:</label>
-                            <input type="date" id="end_date" name="end_date">
+                            <label id="heading">to:</label>
+                            <input type="date" id="end_date" name="end_date" class="input-field">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" value="Generate Report">
+                            <input type="submit" value="Generate Report" id="button" class="button1">
                         </td>
                     </tr>
                 </table>
             </form>
+            </div>
+            </div>
         </div>
     </div>
+    
+    
     <script>
         const searchForm = document.forms['lms'];
 const updateForm = document.forms['updateForm'];

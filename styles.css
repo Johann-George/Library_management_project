@@ -1,5 +1,5 @@
 body {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond';    
     background-color: #f2f2f2f1;
     display: flex;
     justify-content: center;
@@ -12,10 +12,9 @@ body {
 }
 
 .center-screen {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: flex-start; */
     min-height: 85vh;
 }
 
@@ -32,22 +31,106 @@ h1 {
     border-radius: 8px;
 }
 .form-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 50px;
     
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  height:450px;
+  padding: 2em;
+  background-color: #171717;
+  border-radius: 22px;
+  margin-bottom: 100px;
+  margin-top: -32px;
+  margin-left: -32px;
 }
 
-form {
-    
-    background-color: #fff;
+  .form:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  }
+  #heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(0, 255, 200);
+    font-size: 1.2em;
+  }
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  #button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+  }
+  .input-field {
+    background: none;
+    border: 1px;
+    outline: none;
+    width: 100%;
+    color: rgb(0, 255, 200);
+  }
+  .button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
     border-radius: 5px;
-    width: 48%;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.55);
-    
-}
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: 1s ease-in-out;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    color: rgb(0, 0, 0);
+  }
+  
+  .button1:hover {
+    background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+    color: rgb(0, 255, 200);
+  }
+  
+  .card {
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 22px;
+    transition: all .3s;
+    width: 300px;
+    padding: 2em;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 450px;
+  }
+  
+  .card2 {
+    border-radius: 0;
+    transition: all .2s;
+  }
+  
+  .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  }
 
 table {
     
