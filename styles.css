@@ -21,6 +21,10 @@ body {
     height: 100vh; /* Add this line */
     margin: 0px; /* Add this line */
     padding: 0px; /* Add this line */
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 
