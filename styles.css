@@ -16,11 +16,6 @@ body {
 .center-screen {
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: flex-start; */
-    min-height: 85vh;
-    height: 100vh; /* Add this line */
-    margin: 0px; /* Add this line */
-    padding: 0px; /* Add this line */
     position: absolute;
     top: 50%;
     left:50%;
